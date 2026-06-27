@@ -13,8 +13,8 @@ html{
 }
 
 body{
-    background:#f4f9ff;
-    color:#333;
+    background:#960583;
+    color:#e76161;
     overflow-x:hidden;
 }
 
@@ -151,7 +151,7 @@ section{
 
 section h2{
     text-align:center;
-    color:#0b6efd;
+    color:#a8fd0b;
     font-size:36px;
     margin-bottom:25px;
 }
@@ -177,17 +177,17 @@ section h2{
 }
 
 .card{
-    background:white;
+    background:rgb(168, 13, 142);
     border-radius:18px;
     padding:35px;
     text-align:center;
     transition:.4s;
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:0 10px 30px rgba(11, 149, 224, 0.08);
 }
 
 .card i{
     font-size:45px;
-    color:#0b6efd;
+    color:#a51414;
     margin-bottom:20px;
 }
 
@@ -197,7 +197,7 @@ section h2{
 
 .card:hover{
     transform:translateY(-12px);
-    box-shadow:0 20px 40px rgba(0,0,0,.15);
+    box-shadow:0 20px 40px rgba(200, 45, 45, 0.15);
 }
 
 /* ==========================
@@ -208,8 +208,8 @@ section h2{
     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:20px;
-    background:#0b6efd;
-    color:white;
+    background:#499fd5;
+    color:rgb(214, 123, 123);
     text-align:center;
 }
 
@@ -218,7 +218,7 @@ section h2{
 }
 
 .stat h2{
-    color:white;
+    color:rgb(234, 143, 143);
     font-size:45px;
 }
 
@@ -237,11 +237,11 @@ section h2{
 }
 
 .doctor{
-    background:white;
+    background:rgb(14, 202, 23);
     text-align:center;
     border-radius:18px;
     overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.1);
+    box-shadow:0 10px 30px rgba(200, 26, 26, 0.1);
     transition:.4s;
 }
 
@@ -257,7 +257,7 @@ section h2{
 
 .doctor p{
     margin:10px 0 20px;
-    color:#666;
+    color:#de0e0e;
 }
 
 .doctor:hover{
