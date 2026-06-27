@@ -32,9 +32,9 @@ const header = document.querySelector("header");
 window.addEventListener("scroll", () => {
 
     if (window.scrollY > 50) {
-        header.style.boxShadow = "0 5px 20px rgba(0,0,0,0.2)";
+        header.style.boxShadow = "0 5px 20px rgba(227, 18, 18, 0.2)";
     } else {
-        header.style.boxShadow = "0 2px 15px rgba(0,0,0,.1)";
+        header.style.boxShadow = "0 2px 15px rgba(23, 71, 149, 0.1)";
     }
 
 });
